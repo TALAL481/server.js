@@ -6,12 +6,12 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
 
-  res.send("AI Tools Backend is running!");
+  res.send("AI Tools Backend is working 🚀");
 
 });
 
 app.listen(3000, () => {
 
-  console.log("Server running");
+  console.log("Server running on port 3000");
 
 });
